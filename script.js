@@ -1,9 +1,6 @@
 // Replace these demo items with your own products, prices, and licensed photos.
 const products = [
-  {id:'sticker-pack',name:'Happy Day Sticker Pack',price:5.00,category:'stickers',emoji:'🌷',color:'#f9dce5',tag:'BEST SELLER',description:'A bundle of adorable mini stickers.'},
-  {id:'mystery-bag',name:'Mystery Blind Bag',price:8.00,category:'blind-bags',emoji:'🎁',color:'#f5e3c7',tag:'SURPRISE',description:'A little surprise in every bag.'},
-  {id:'photocard-holder',name:'Heart Photocard Holder',price:7.50,category:'accessories',emoji:'💗',color:'#e3d9f7',tag:'CUTE PICK',description:'Keep your favorite card close.'},
-  {id:'star-stickers',name:'Starry Sticker Sheet',price:4.00,category:'stickers',emoji:'⭐',color:'#dceaf7',tag:'NEW',description:'Dreamy stars for your journal.'}
+  {id:'skz-8bit-sticker',name:'8-Bit This & That Glossy Sticker',price:3.00,category:'stickers',emoji:'🎮',color:'#ded0ff',tag:'READY MADE',description:'Individual glossy, retro-game-inspired K-pop sticker. Dimensions to be confirmed.'}
 ];
 const currency = n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
 const grid=document.querySelector('#product-grid');
